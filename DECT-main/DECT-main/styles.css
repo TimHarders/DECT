@@ -1,0 +1,131 @@
+.signup,
+.login {
+
+    border-radius: 2%;
+    width: 15%;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    text-align: center;
+    margin-top: 3vw;
+    margin-left: 2vw;
+    display: table;
+    width: 1vw;
+    width: 300px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #5fcfcf;
+    border-color: #3ac1bf;
+    font-weight: bold;
+    padding: 12px 15px;
+    max-width: 90px;
+    cursor: pointer;
+    position: relative;
+    left: 3%;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #365D98
+}
+
+
+body {
+    background-image: url("background.png");
+    background-size: cover;
+    resize: both;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 1280px;
+    background-position: center;
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    background-color: #5fcfcf;
+    opacity: 70%;
+}
+
+
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+.passworderror {
+    position: relative;
+    bottom: 10px;
+    left: 0px;
+    color: red;
+}
+
+.usernameerror {
+    position: relative;
+    bottom: 7px;
+    left: 0px;
+    color: red;
+}
+
+::placeholder {
+    color: black;
+}
+
+.menu_login {
+    position: relative;
+    right: 70px;
+}
+
+.menu_signup {
+    position: relative;
+    left: 140px;
+    bottom: 19px;
+    width: 100px;
+}
+
+a {
+    position: relative;
+    left: 5%;
+    color: black;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    border: solid 1px #666666;
+    padding: 10px;
+    border: solid 1px #BDC7D8;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #5fcfcf;
+    border-color: #3ac1bf;
+    font-weight: bold;
+    padding: 12px 15px;
+    max-width: 90px;
+    cursor: pointer;
+    position: relative;
+    left: 3%;
+    border-radius: 5px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(60, 0, 110);
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,238 @@
+body {
+    background-color: white;
+}
+/* 
+table, th, td {
+    display: flex;
+    width: 77%;
+}
+table {
+    border: 1px solid black;
+}
+td {
+    font-size: 150%;
+}
+th{
+    font-size: 200%;
+} */
+
+.trophy1 {
+    display: flex;
+    position: relative;
+    left: 1%;
+    top: 24%;
+}
+
+.trophy2 {
+    display: flex;
+    position: relative;
+    left: 2%;
+    top: 24%;
+}
+.trophy3 {
+    display: flex;
+    position: relative;
+    left: 3%;
+    top: 24%;
+}
+.trophy4 {
+    display: flex;
+    position: relative;
+    left: 4%;
+    top: 24%;
+}
+.trophy5 {
+    display: flex;
+    position: relative;
+    left: 5%;
+    top: 24%;
+}
+.trophy6 {
+    display: flex;
+    position: relative;
+    left: 11%;
+    top: 30%;
+}
+.trophy7 {
+    display: flex;
+    position: relative;
+    left: 12%;
+    top: 30%;
+}
+.trophy8 {
+    display: flex;
+    position: relative;
+    left: 13%;
+    top: 30%;
+}
+.trophy9 {
+    display: flex;
+    position: relative;
+    left: 14%;
+    top: 30%;
+}
+.trophy10 {
+    display: flex;
+    position: relative;
+    left: 15%;
+    top: 30%;
+}
+.trophy11 {
+    display: flex;
+    position: relative;
+    left: 0%;
+    top: 34%;
+}
+.trophy12 {
+    display: flex;
+    position: relative;
+    left: 1%;
+    top: 34%;
+}
+.trophy13 {
+    display: flex;
+    position: relative;
+    left: 2%;
+    top: 34%;
+}
+.trophy14 {
+    display: flex;
+    position: relative;
+    left: 4%;
+    top: 34%;
+}
+.trophy15 {
+    display: flex;
+    position: relative;
+    left: 5%;
+    top: 34%;
+}
+
+img {
+    width: 15%;
+    position: absolute;
+}
+
+.kast {
+    height: 400%;
+    width: 400%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.row1 {
+    display:flex;
+    flex-direction: row;
+    width: 12%;
+    margin: 0.8%;
+}
+
+.row2 {
+    display:flex;
+    flex-direction: row;
+    width: 12%;
+    margin: -0.4%;
+}
+
+.row3 {
+    display:flex;
+    flex-direction: row;
+    width: 12%;
+    margin: 0.9%;
+}
+
+#cat {
+    bottom:0%;
+    position: absolute;
+    left: 390%;
+    cursor: pointer;
+    width: 7%;
+}
+
+.kamer {
+    position: absolute;
+    width: 104%;
+    z-index: -1;
+    height: 100%;
+    margin:-0.4%;
+}
+
+/* settings wiel */
+.cog-wheel {
+    width:3%;
+    position:absolute;
+    bottom: 4%;
+}
+
+#link {
+    padding: 1%;
+}  
+
+.mystyle {
+    width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+  
+.trophy1.hover{
+
+}
+
+.trophy2.hover {
+  
+}
+
+.trophy3.hover {
+  
+}
+
+.trophy4.hover {
+  
+}
+.trophy5.hover {
+  
+}
+.trophy4.hover {
+  
+}
+.trophy5.hover {
+  
+}
+.trophy6.hover {
+  
+}
+.trophy7.hover {
+  
+}
+.trophy8.hover {
+  
+}
+.trophy9.hover {
+  
+}
+.trophy10.hover {
+  
+}
+.trophy11.hover {
+  
+}
+.trophy12.hover {
+  
+}
+.trophy13.hover {
+  
+}
+.trophy14.hover {
+  
+}
+.trophy15.hover {
+  
+}

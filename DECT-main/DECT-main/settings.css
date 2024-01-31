@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+.set {
+    height: 400%;
+    width: 400%;
+    position: relative;
+}
+
+img {
+    position: absolute;
+}
+
+h1 {
+    z-index: 100;
+    position: relative;
+    color: whitesmoke;
+    left: 863px;
+    top: 45px;
+}
+
+.link.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link.hover {
+    color: white;
+    text-decoration: none;
+}
+
+.link.visited {
+    color: white;
+    text-decoration: none;
+}
+
+.link.active {
+    color: white;
+    text-decoration: none;
+}

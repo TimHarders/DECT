@@ -1,0 +1,117 @@
+.rode_knop {
+    display: flex;
+    position: fixed;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+}
+.onzichtbare_knop {
+    display: flex;
+    background-color: #fbfb9d;
+    border: none;
+    color: #fbfb9d;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 33%;
+}
+.onzichtbare_knop:hover {
+    color: white;
+}
+.settings {
+    width:50px;
+    height:50px;
+    position: absolute;
+    bottom: 0; 
+    right: 0; 
+}
+body {
+    background-color: #fbfb9d;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+}
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.scherm {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.midden {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rechts {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: stretch;
+}
+.notify{  
+    position:absolute;
+    top:0px;
+    width:100%;
+    height:0;  
+    box-sizing:border-box;
+    color:white;  
+    text-align:center;
+    background:rgba(0,0,0,.6);
+    overflow:hidden;
+    box-sizing:border-box;
+    transition:height .2s;
+}
+  
+#notifyType:before{
+    display:block;
+    margin-top:15px; 
+    
+}
+  
+.active{  
+    height:50px;
+}
+  
+.success:before{
+    Content:"Aww Yeaaaaa! Success!";
+}
+.button{  
+    float:left;
+    width:200px;
+    padding:20px 30px;
+    margin:30px;
+    text-align:center;
+    font-weight:bold;
+    cursor:pointer;
+}
+  
+#success{
+    background:#03a679;
+    color:#f0f0f0;  
+}
